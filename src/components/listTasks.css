@@ -1,0 +1,54 @@
+.list-tasks {
+    display: flex;
+    text-align: center;
+
+
+}
+
+.list-tasks li {
+    flex: 1;
+    border: 1px solid hsl(0, 0%, 90%);
+    margin-bottom: 15px;
+    border-radius: 5px;
+    list-style: none;
+    background-color: hsl(0, 0%, 97%);
+    padding: 10px;
+}
+
+.button-editar {
+    background-color: hsl(120, 100%, 85%);
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 45px;
+    flex: 0.1;
+    border: 0;  
+}
+
+.button-eliminar {
+    background-color: hsl(0, 100%, 85%);
+    height: 45px;
+    margin-left: 10px;
+    flex: 0.1;
+    border-radius: 5px;
+    border: 0;
+}
+
+
+
+.button-update{
+    background-color: hsl(240, 100%, 90%);
+    padding: 12px;
+    width: 5rem;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+.editing input{
+    background-color: hsl(0, 0%, 97%);
+    border: 0;
+    outline: 0;
+    padding: 15px;
+    width: 10rem;
+    margin-right: 10px;
+}
